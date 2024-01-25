@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyDaktari"
+        tools:targetApi="31">
+        <activity
+            android:name=".daktari.ResumeSession1"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.HomeBasedCareRequestForm"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.DoctorVisitRequestForm"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.Nutritionists"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.Psychologists"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Borne"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Chest"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Ear"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Heart"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Eye"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Brain"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.AllSpecialists"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ClinicalOfficers"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.MedicalOfficers"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.AllGeneral"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Kendi"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.SeeDoctorNow"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.ChooseProfile"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Reset"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Verify"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ViewDetails"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.FullDetails"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.OnDemandMedic"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ReviewSymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.SymptomCheckerRequest"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Details"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Kardex"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.PhysioSession"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.SeekReplacement"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.MySessions"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ViewDescription"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ViewProfile"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.WaitingRoom"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ViewFullDescription"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.PhysicalAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.CancelAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.RescheduleAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.OnlineAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Notifications"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Nutritionist"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Psychologist"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Physio"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Nurse"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.ClinicalOfficer"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.MedicalOfficer"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.DrSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Inbox"
+            android:exported="false" />
+        <activity
+            android:name=".daktari2.Blog"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.Self3"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.Self"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.ResumeSession"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.SymptomChecker"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.Biodata"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.ScheduledAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.PaymentType"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.MyAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.DoctorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".daktari.ConsultNow"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Congrats"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.SliderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
